@@ -1,4 +1,4 @@
-# 360-image-gallery-boilerplate
+# RICOH THETA 360 Image Gallery Tutorial with A-Frame
 
 This is the second THETA 360 tutorial on A-Frame. The 
 [first tutorial](https://github.com/theta360developers/aframe-demo) 
