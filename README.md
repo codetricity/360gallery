@@ -13,4 +13,4 @@ Scene for selecting between different 360-degree images.
 - [A-Frame](https://github.com/aframevr/aframe)
 - [K-Frame](https://github.com/ngokevin/k-frame)
 
-![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/theta-s-api-tests)
+![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/360gallery)
