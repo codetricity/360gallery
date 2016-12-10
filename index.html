@@ -11,7 +11,7 @@
     <script src="https://npmcdn.com/aframe-template-component@3.0.1"></script>
     <script src="components/set-image.js"></script>
     <script src="components/update-raycaster.js"></script>
-    <!-- DELETE SECTION BELOW if you forked code. This is analytics code to track popularity of content for a 
+    <!-- DELETE SECTION BELOW if you forked code. This is analytics code to track popularity of content for a
          meetup event tracking. -->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,13 +28,14 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="kieran" src="img/1.jpg">
-        <img id="kieran-thumb" crossorigin="anonymous" src="img/kieran-thumb.png">
-        <img id="christian-thumb" crossorigin="anonymous" src="img/christian-thumb.png">
-        <img id="eddie-thumb" crossorigin="anonymous" src="img/eddie-thumb.png">
+        <img id="image-1" crossorigin="anonymous" src="img/image1.jpg">
+        <img id="image-2" src="img/image2.JPG">
+        <img id="menu-2" crossorigin="anonymous" src="img/menu-2.png">
+        <img id="menu-1" crossorigin="anonymous" src="img/menu-1.png">
+        <img id="menu-3" crossorigin="anonymous" src="img/menu-3.png">
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="christian" crossorigin="anonymous" src="img/2.jpg">
-        <img id="eddie" crossorigin="anonymous" src="img/4.jpg">
+
+        <img id="image-3" crossorigin="anonymous" src="img/image3.jpg">
 
         <!-- Image link template to be reused. -->
         <script id="link" type="text/nunjucks">
@@ -51,13 +52,13 @@
       </a-assets>
 
       <!-- 360-degree image. -->
-      <a-sky id="image-360" radius="10" src="#kieran"></a-sky>
+      <a-sky id="image-360" radius="10" src="#image-2"></a-sky>
 
       <!-- Image links. -->
       <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
-        <a-entity template="src: #link" data-src="#christian" data-thumb="#christian-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#kieran" data-thumb="#kieran-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#eddie" data-thumb="#eddie-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#image-1" data-thumb="#menu-1"></a-entity>
+        <a-entity template="src: #link" data-src="#image-2" data-thumb="#menu-2"></a-entity>
+        <a-entity template="src: #link" data-src="#image-3" data-thumb="#menu-3"></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
