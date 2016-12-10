@@ -12,6 +12,12 @@ Previous Tutorials
 
 These tutorials leverage the *Building an Advanced Scene* guide of the A-Frame documentation.
 
+## Quick Preview
+
+Click on the link below:
+
+https://codetricity.github.io/360gallery/
+
 ## Usage
 
 You must run a local web server or load the code up onto GitHub Pages.
