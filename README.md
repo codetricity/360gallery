@@ -37,7 +37,16 @@ and then click anywhere on the screen.
 - [A-Frame](https://github.com/aframevr/aframe)
 - [K-Frame](https://github.com/ngokevin/k-frame)
 
-![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/360gallery)
+## Controller
+There's a simple Python script to take pictures from your local computer using a simple GUI that is mockup of a mobile phone. The script will move the pictures from the camera and store them in `/img/`. If you want to use this function, you'll need to edit `index.html`. It's commented.
+
+The controller requires
+
+* Python 2.7 (or around there)
+* Python Pygame library
+* Python requests library (for HTTP requests)
+
+If you integrate it into a web server, the easiest way to save the pictures into `/var/www/` is to run the controller as root. I'm storing my git repo in `/var/www` for the demo.
 
 ---
 
@@ -46,3 +55,5 @@ and then click anywhere on the screen.
 ![](img/doc/screenshot.png)
 
 ![](img/doc/screenshot2.png)
+
+![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/360gallery)
